@@ -205,12 +205,3 @@ dms_detection/
 └─ main.py
 ```
 
----
-
-## ✅ Estado actual
-- IDs de colisión **correlativos**
-- Visualización consistente
-- Alturas reales respetadas
-- Código modular y extensible
-- Flujo completo automatizado
-
