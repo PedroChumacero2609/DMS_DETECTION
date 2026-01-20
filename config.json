@@ -1,0 +1,24 @@
+{
+    "input_ply": "data/GlobalMap_labeled.ply",
+    "csv_poles_MT": "output/poles_MT_info_classified.csv",
+    "connections_json": "output/connections.json",
+    "models_dir": "output/poles_MT",
+    "output_dir": "output",
+    "model_trained_path": "classifier/models/pointnet/trained_model.pth",
+    "collisions_dir": "output/collisions",
+    "label_MT": 7,
+    "tube": {
+        "default_radius": 4.0,
+        "color": [
+            1.0,
+            1.0,
+            0.0
+        ],
+        "resolution": 18,
+        "min_points_collision": 20
+    },
+    "visualization": {
+        "reconstruction": "output/poles_reconstructed.png",
+        "collisions": "output/collisions/collisions.png"
+    }
+}
